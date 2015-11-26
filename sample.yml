@@ -1,2 +1,22 @@
-Namle:
-NameJoseph
+- &id021 !ruby/object:Puppet::Relationship
+      source: *id006
+      target: &id014 !ruby/object:Puppet::Resource
+        catalog: *id001
+        exported:
+        file: &id007 /etc/puppet/manifests/test.pp
+        line: 51
+        parameters:
+          !ruby/sym backup: false
+          !ruby/sym content:
+            - bar
+            - |-
+              foo = "foo1 foo2 foo3 \
+                                 foo4 foo5"
+            tags:
+          - file
+          - node
+          - testnode
+          - class
+        title: /root/foo
+        type: File
+        virtual:
