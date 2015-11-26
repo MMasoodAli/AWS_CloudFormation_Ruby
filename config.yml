@@ -31,7 +31,7 @@ Resources:
     Properties: 
       ImageId: ami-91c593a1
       InstanceType: t2.small
-      KeyName: advent2014
+      KeyName: advent2015
       NetworkInterfaces: 
         - 
           AssociatePublicIpAddress: true
