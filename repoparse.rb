@@ -7,5 +7,4 @@ puts "Cloning Complete!"
 puts "starting to parse!"
 Psych.load_file("AWS_CloudFormation_Ruby/config.yml")
 Psych.parse_file("AWS_CloudFormation_Ruby/config.yml")
-puts "Parsing complete!"
 
